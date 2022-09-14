@@ -11,7 +11,7 @@ public class ConexaoBanco {
 	//private ResultSet resultset=null;
 	
 	public String conectar_()
-	{  String servidor="jdbc:mysql://localhost:3306/produto";
+	{  String servidor="jdbc:mysql://localhost:3306/db_produto";
 	   String usuario="root";
 	   String senha="";
 	   String driver="com.mysql.cj.jdbc.Driver";
@@ -35,7 +35,7 @@ public class ConexaoBanco {
 	
 	
 	public Connection conectar()
-	{  String servidor="jdbc:mysql://localhost:3306/produto";
+	{  String servidor="jdbc:mysql://localhost:3306/db_produto";
 	   String usuario="root";
 	   String senha="";
 	   String driver="com.mysql.cj.jdbc.Driver";
